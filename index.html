@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="반준진&류혜랑" />
+    <meta property="og:description" content="어서오세요!" />
+    <meta property="og:image" content="https://github.com/helena7645/peterpage/blob/main/img2.jpg?raw=true" />
+    <title>Peter.com</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+        * {
+            font-family: "Pretendard", serif;
+        }
+
+        body {
+            background-color: #3d318a;
+        }
+
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+            border: 1px solid white;
+
+            background-image: url(./img2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .main {
+            color: white;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .sub {
+            color: white;
+            font-size: 14px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap>a {
+            width: 280px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: 12px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color: #3d318a;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+
+        .wrap>a:hover {
+            background-color: #e2e2e2;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">반준진 씨</h1>
+        <p class="sub">선택해 주세요!</p>
+        <a href="#">일주일에 한 번</a>
+        <a href="#">일주일에 두 번</a>
+        <a href="#">일주일에 세 번</a>
+        <a href="#">일주일에 네 번</a>
+    </div>
+</body>
+
+</html>
